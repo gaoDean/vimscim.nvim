@@ -1,2 +1,2 @@
-# table.nvim
+# vimscim.nvim
 small plugin to assist in creating markdown tables
