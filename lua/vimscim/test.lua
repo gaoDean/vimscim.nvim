@@ -1,4 +1,4 @@
-local config = require("bare.config")
+local config = require("vimscim.config")
 
 local M = {}
 
