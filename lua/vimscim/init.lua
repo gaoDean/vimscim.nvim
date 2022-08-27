@@ -4,9 +4,7 @@ local M = {}
 
 M.setup = function(opts)
 	config.update(opts)
-	local test = require("vimscim.test") -- test.lua can access new config
-	M.test_func = test.test_func
-	M.test_func()
+	local sc = require("vimscim.sc") -- test.lua can access new config
 end
 
 return M
